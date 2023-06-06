@@ -1,0 +1,5 @@
+<resources>
+    <string name="app_name" translatable="false">Trans-name</string>
+    <string name="todo" translatable="false">TODO</string>
+    <string name="login">Login</string>
+</resources>

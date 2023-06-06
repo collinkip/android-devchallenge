@@ -1,0 +1,85 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/Whitey"
+    android:orientation="vertical"
+    tools:context=".Login">
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="250dp"
+        android:layout_marginRight="20dp"
+        android:fontFamily="@font/poppins_bold"
+        android:text=" Log in with email"
+        android:textAlignment="center"
+        android:textColor="#000000"
+        android:textColorHint="@color/Gray"
+        android:textColorLink="@color/Gray"
+        android:textSize="22sp" />
+
+    <EditText
+        android:id="@+id/editTextTextEmailAddress2"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/small_background"
+        android:ems="10"
+        android:fontFamily="sans-serif-medium"
+        android:hint="Email address"
+        android:inputType="textEmailAddress"
+        android:paddingLeft="10dp"
+        android:textColorHint="@color/Green_900"
+        android:textColorLink="@color/Gray" />
+
+    <EditText
+        android:id="@+id/editTextTextPassword2"
+        android:layout_width="match_parent"
+        android:layout_height="60dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/small_background"
+        android:ems="10"
+        android:fontFamily="sans-serif-medium"
+        android:hint="Password(8+ characters)"
+        android:inputType="textPassword"
+        android:paddingLeft="10dp"
+        android:textColorHint="@color/Green_900"
+        android:textColorLink="@color/Gray" />
+
+    <TextView
+        android:id="@+id/textView20"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="20dp"
+        android:layout_marginRight="20dp"
+        android:fontFamily="@font/poppins_bold"
+        android:text="By clicking below, you agree to orur Terms and of use and consent to our Privacy Policy"
+        android:textAlignment="center"
+        android:textColor="#100F0F"
+        android:textColorHint="@color/Gray"
+        android:textColorLink="@color/Gray" />
+
+    <Button
+        android:id="@+id/button_login"
+        android:layout_width="match_parent"
+        android:layout_height="65dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="50dp"
+        android:layout_marginRight="20dp"
+        android:background="@drawable/btn_drawable"
+        android:fontFamily="@font/poppins_bold"
+        android:text="Log in"
+        android:textAllCaps="false"
+        android:textColor="@color/Whitey"
+        android:textSize="18sp" />
+</LinearLayout>
